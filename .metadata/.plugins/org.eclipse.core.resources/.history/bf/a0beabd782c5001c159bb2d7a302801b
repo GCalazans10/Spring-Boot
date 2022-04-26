@@ -1,0 +1,18 @@
+INSERT INTO tb_department(name) VALUES ('Gestão');
+INSERT INTO tb_department(name) VALUES ('Informática');
+INSERT INTO tb_department(name) VALUES ('RH');
+INSERT INTO tb_department(name) VALUES ('Produção');
+
+
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (1, 'Maria', 25, 11948484848);
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (2, 'Bob', 25, 11948484846);
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (3, 'Alex', 25, 11948484844 );
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (4, 'Ana', 25, 11948484843 );
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (1, 'Marcia', 25, 11943484848);
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (2, 'Boby', 25, 11948424846);
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (3, 'Alexandro', 25, 11948084844 );
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (4, 'Ana Maria', 25, 11948184843 );
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (1, 'Maria Alice', 25, 11948484848);
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (2, 'Bob Dilan', 25, 11948684846);
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (3, 'Almerinda', 25, 11948884844 );
+INSERT INTO tb_user(department_id, name, idade, whatsApp) VALUES (4, 'Amelia', 25, 11948784843 );
